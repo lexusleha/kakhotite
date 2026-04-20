@@ -1,0 +1,63 @@
+element.style {
+}
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    font-family: var(--font-family);
+    overscroll-behavior: none;
+}
+blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, legend, li, ol, p, pre, textarea, ul {
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+style attribute {
+    color-scheme: light;
+}
+:root, :root[data-theme=light] {
+    --color-primary: #8552e8;
+    --color-primary-contrast: #fff;
+    --color-primary-soft: rgba(133, 82, 232, .08);
+    --color-bg: #f5f6fa;
+    --color-surface: #fff;
+    --color-surface-muted: #f9f9f9;
+    --color-border: #e5e7eb;
+    --color-text-primary: #1f2937;
+    --color-text-secondary: #4b5563;
+    --color-icon-muted: #777;
+    --shadow-elevation: 0 8px 24px rgba(0, 0, 0, .08);
+}
+:root {
+    --drawer-padding: 16px;
+    --drawer-border-radius: 32px;
+    --font-family: ALSHauss, sans-serif;
+}
+:root {
+    --switch-padding: 3px;
+}
+:root {
+    --border-radius: 12px;
+    --icon-size: 20px;
+    --input-padding-horizontal: 12px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+<style>
+@font-face {
+    font-display: swap;
+    font-family: ALSHauss;
+    font-style: normal;
+    font-weight: 700;
+    src: url(./fonts/als_hauss_bold.woff2) format("woff2"), url(./fonts/als_hauss_bold.woff) format("woff");
+}
